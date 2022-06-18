@@ -6,7 +6,7 @@ const routes = require('./routes')
 
 // const Professor = require('./models/professores')
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001
 
 routes(app)
 
