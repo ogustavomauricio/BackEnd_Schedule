@@ -8,6 +8,7 @@ const router = Router()
 //  .get('/niveis', StudentController.pegaTodosOsNiveis)
 //  .get('/niveis/:id', StudentController.pegaUmNivel)
  router.post('/students', StudentController.registerStudent)
+ router.get('/students', StudentController.getStudent)
 //  .put('/niveis/:id', StudentController.atualizaNivel)
 //  .delete('/niveis/:id', StudentController.apagaNivel)
 module.exports = router

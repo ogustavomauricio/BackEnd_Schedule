@@ -2,6 +2,14 @@ require('dotenv').config();
 const { HOST, PASSWORD_POSTGRES, DATABASE, DB_USERNAME, DB_PORT } = process.env;
 module.exports = 
   {
+    // "development": {
+    //   "username": 'gustavo',
+    //   "password":'G5studio10*',
+    //   "database":'schedule',
+    //   "host":'localhost',
+    //   // "port": DB_PORT,
+    //   "dialect": "mysql"
+    // },
     "development": {
       "username":DB_USERNAME,
       "password":PASSWORD_POSTGRES,

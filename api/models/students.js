@@ -4,7 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     nome: DataTypes.STRING,
     price: DataTypes.STRING,
     data_inicio: DataTypes.STRING,
-    type: DataTypes.STRING
+    type: DataTypes.STRING,
+    table_id:DataTypes.INTEGER
   }, {});
   Students.associate = function(models) {
     Students.belongsTo(models.Professores, {

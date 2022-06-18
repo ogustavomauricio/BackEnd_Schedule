@@ -27,6 +27,9 @@ module.exports = {
       type: {
         type: Sequelize.STRING
       },
+      table_id: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
