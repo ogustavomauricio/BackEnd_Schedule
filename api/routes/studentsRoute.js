@@ -10,5 +10,5 @@ const router = Router()
  router.post('/students', StudentController.registerStudent)
  router.get('/students', StudentController.getStudent)
 //  .put('/niveis/:id', StudentController.atualizaNivel)
-//  .delete('/niveis/:id', StudentController.apagaNivel)
+ router.delete('/students/:id', StudentController.deleteStudent)
 module.exports = router
