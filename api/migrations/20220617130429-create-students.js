@@ -19,7 +19,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       price: {
-        type: Sequelize.STRING
+        type: Sequelize.FLOAT
       },
       data_inicio: {
         type: Sequelize.STRING
@@ -29,6 +29,9 @@ module.exports = {
       },
       table_id: {
         type: Sequelize.INTEGER
+      },
+      color: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
