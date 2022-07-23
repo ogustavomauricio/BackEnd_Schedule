@@ -9,6 +9,8 @@ const router = Router()
 //  .get('/niveis/:id', StudentController.pegaUmNivel)
  router.post('/students', StudentController.registerStudent)
  router.get('/students', StudentController.getStudent)
-//  .put('/niveis/:id', StudentController.atualizaNivel)
+//  router.put('/students/:id', StudentController.updateStudent)
  router.delete('/students/:id', StudentController.deleteStudent)
+ router.put('/students/:id', StudentController.updateStudent)
+
 module.exports = router
